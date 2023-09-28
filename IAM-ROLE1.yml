@@ -15,7 +15,7 @@ Resources:
             - ec2.amazonaws.com
           Action: sts:AssumeRole
       Description: Created this role for Automation
-      RoleName: Ec2-App-Role
+      RoleName: Ec2-Application-Role
       ManagedPolicyArns:
       - arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess
 
